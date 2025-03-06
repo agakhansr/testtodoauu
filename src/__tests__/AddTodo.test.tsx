@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from '@testing-library/react';
-import AddTodo from '../AddTodo';
+import AddTodo from '../components/AddTodo';
 
 describe('AddTodo', () => {
   test('it should call addTodo when submitting the form', () => {
